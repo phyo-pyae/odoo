@@ -13,7 +13,7 @@ services:
     image: phyopyae/odoo_16_based_postgres_docker
     env_file: .env
     volumes:
-      - db:/var/lib/postgresql/data/pgdata3
+      - db:/var/lib/postgresql/data/pgdata
 
 volumes:
   data:
